@@ -169,3 +169,55 @@
     font-weight: 500;
     color: #000;
 }
+
+.bg-ECF4F1{
+    background-color: #ECF4F1;
+    margin: 70px 0px;
+    padding: 40px 0px;
+}
+
+.font-size-35px{
+    font-size: 35px;
+    color: #8FD400;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.font-size-60px{
+    font-size: 60px;
+    color: #000;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.bg-ECF4F1 .paragraph{
+    font-size: 14px;
+    font-weight: 400;
+    color: #063636;
+}
+
+.courses-taught-flex .courses-taught-para{
+    font-size: 15px;
+    color: #404040;
+    font-weight: 500;
+}
+
+.courses-taught-flex .courses-taught-heading{
+    color: #000;
+    font-size: 25px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.courses-taught-flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #F9F9F9;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.courses-taught-flex img{
+    width: 60px;
+}
