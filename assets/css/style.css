@@ -92,6 +92,7 @@
     color: #8FD400;
 }
 
+.many-talk,
 .section1-heading,
 .section1-container .bg-000,
 .hero-section .banner-left-section .bg-000{
@@ -258,4 +259,240 @@
 
 .video-frame video{
     width: 100%;
+}
+
+.nav-tabs{
+    border-bottom: 1px solid #cccccc !important;
+}
+
+.nav-tabs .nav-link{
+    color: #404040;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-link.active{
+    border-bottom: 3px solid #007336 !important;
+    border-color: #fff #fff #007336 !important;
+    color: #007336 !important;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.custom-section {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    z-index: 1;
+}
+.custom-section::before {
+    content: '';
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    background-color: #006338;
+    z-index: -1;
+    border-radius: 15px;
+    bottom: 130px;
+}
+.custom-content {
+    color: white;
+    text-align: left;
+    z-index: 1;
+    position: relative;
+}
+.custom-button {
+    background-color: #2B9926;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.custom-section img{
+    max-width: 80%;
+}
+
+.custom-section p{
+    font-size: 15px;
+    color: #fff;
+}
+
+.master-section{
+    background: url(../images/master-section.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.master-your-money{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.master-section p{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.master-section .join-big-btn a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.master-section::before  {
+    content: "";
+    position: absolute;
+    top: 100;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #EBF4F1; 
+    z-index: -1;
+}
+
+.bg-EBF4F1{
+    background-color: #EBF4F1;
+    padding-bottom: 30px;
+}
+
+.cta-section {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 14px 16px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.cta-text {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.6;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto 0 auto;
+    width: fit-content;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: #289925;
+    color: #fff;
+}
+
+.faq-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.faq-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.accordion{
+    max-width: 700px;
+    margin: auto;
+}
+
+.accordion-button {
+    background-color: #fff !important;
+    color: #404040 !important;
+    font-weight: bold;
+    box-shadow: none;
+    align-items: baseline !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #54C247 !important;
+    background-color: #fff !important;
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    /* border: none; */
+    border: 1px solid #EAEAEA !important;
+
+}
+
+.accordion-body {
+    color: #404040;
+    text-align: left;
+}
+
+
+.footer-section {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-section p{
+    font-size: 14px;
+    color: #fff;
+    padding-top: 20px;
+}
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #28a745;
+}
+
+.footer-section .social-icons a {
+    font-size: 20px;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.footer-section h5{
+    position: relative;
+}
+
+.footer-section h5::after{
+    border-bottom: 2px solid #8FD300;
+    width: 30px;
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0;
+    bottom: -7px;
+}
+
+.footer-section .navigation-link li{
+    font-size: 14px;
+    padding-bottom: 10px;
 }
