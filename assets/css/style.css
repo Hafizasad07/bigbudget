@@ -51,6 +51,7 @@
     background: url("../images/banner-bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    border-radius: 0px 0px 40px 40px;
 }
 
 .members{
@@ -581,6 +582,10 @@
 
 .hero-section .row{
     align-items: center !important;
+}
+
+.margin-top-20px{
+    border-radius: 30px;
 }
 
 @media screen and (max-width:1300px) {
