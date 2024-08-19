@@ -277,6 +277,10 @@
 
 .nav-tabs .nav-link{
     color: #404040;
+    border: none;
+    background-color: none !important;
+    border-bottom:3px solid transparent !important;
+    border-radius: none !important;
 }
 
 .nav-tabs .nav-link:hover,
@@ -284,8 +288,6 @@
     border-bottom: 3px solid #007336 !important;
     border-color: #fff #fff #007336 !important;
     color: #007336 !important;
-    font-weight: bold;
-    font-size: 14px;
 }
 
 .custom-section {
