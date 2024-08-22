@@ -278,12 +278,23 @@
     border-bottom: 1px solid #cccccc !important;
 }
 
+.nav-tabs::-webkit-scrollbar {
+    display: none; 
+}
+
 .nav-tabs .nav-link{
     color: #404040;
     border: none;
     background-color: none !important;
     border-bottom:3px solid transparent !important;
     border-radius: none !important;
+    white-space: nowrap; 
+}
+
+.nav-tabs .nav-item {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 .nav-tabs .nav-link:hover,
@@ -603,6 +614,14 @@
 .text-left{
     text-align: start !important;
     font-size: 25px !important;
+}
+
+.footer-section-stars{
+    cursor: pointer;
+}
+
+.text-AFAFAF{
+    color: #AFAFAF !important;
 }
 @media screen and (max-width:1300px) {
     .hero-section .row{
@@ -972,10 +991,10 @@
     .border-top-fff{
         border-top: 1px solid #fff !important;
     }
-
+/* 
     .nav-tabs .nav-link{
         min-height: 139px;
-    }
+    } */
 
     .faq-section .font-size-40px{
         font-size: 20px !important;
@@ -1009,11 +1028,23 @@
         padding: 8px 8px;
         font-size: 16px;
     }
+
+    .custom-section::before{
+        width: 90%;
+        left: 20px;
+        height: 76%;
+    }
 }
 
 @media screen and (max-width:400px) {
     .section1-container{
         max-width: 320px;
         margin: auto;
+    }
+
+    .custom-section::before{
+        width: 90%;
+        left: 20px;
+        height: 74%;
     }
 }
