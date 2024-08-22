@@ -485,8 +485,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-left: 10px; /* Space between the text and the circle */
-    vertical-align: middle; /* Align the circle with the text */
+    margin-left: 10px; 
+    vertical-align: middle; 
 }
 
 .accordion-button:not(.collapsed)::after{
@@ -623,6 +623,11 @@
 
 .text-AFAFAF{
     color: #AFAFAF !important;
+}
+
+.max-width-90{
+    max-width: 90%;
+    text-align: center;
 }
 @media screen and (max-width:1300px) {
     .hero-section .row{
