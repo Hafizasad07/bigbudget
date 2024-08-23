@@ -629,6 +629,7 @@
     max-width: 90%;
     text-align: center;
 }
+
 @media screen and (max-width:1300px) {
     .hero-section .row{
         align-items: flex-end !important;
@@ -834,7 +835,7 @@
 
     .bg-ECF4F1 .paragraph
     {
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
     }
 
@@ -1013,6 +1014,12 @@
         margin: auto;
     }
 }
+
+@media (max-width: 576px) {
+    .big-budget-intro {
+      font-size: 1.2rem; 
+    }
+  }
 
 @media screen and (max-width:500px) {
     .section1-container{
